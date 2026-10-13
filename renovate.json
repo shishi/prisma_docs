@@ -1,5 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "lockFileMaintenance": {
+    "automerge": true,
+    "automergeType": "pr",
+    "platformAutomerge": false
+  },
   "extends": ["config:base"],
   "schedule": ["before 8am on the first day of the month"],
   "ignoreDeps": ["gatsby-plugin-algolia"],
